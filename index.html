@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>오늘의 진짜 정보판 — 전 세계 최대 규모 지진 (USGS)</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>오늘의 진짜 정보판 — 지난 24시간 최대 규모 지진</h1>
+    <p class="sub">출처: USGS Earthquake Hazards Program (비개인 공개 원천, 비밀키 불필요)</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>① 지금 실시간 조회</h2>
+      <p class="hint">이 페이지를 여는 순간 브라우저가 USGS를 직접 호출합니다.</p>
+      <div class="reading">
+        <div class="value"><span id="live-value">—</span> <span id="live-unit">—</span></div>
+        <div class="place" id="live-place">—</div>
+        <table class="meta">
+          <tr><th>출처</th><td id="live-source">—</td></tr>
+          <tr><th>출처(관측) 시각</th><td id="live-source-time">—</td></tr>
+          <tr><th>조회 시각</th><td id="live-fetch-time">—</td></tr>
+          <tr><th>기준 시간대</th><td id="live-tz">—</td></tr>
+          <tr><th>상태</th><td><span id="live-status" class="badge">—</span></td></tr>
+        </table>
+      </div>
+      <button id="btn-refresh-live">다시 조회</button>
+    </section>
+
+    <section class="card">
+      <h2>② 실제 일별 기록 — 서로 다른 KST 날짜 대비</h2>
+      <p class="hint">GitHub Actions가 매일 자동으로 USGS를 조회해 이 저장소에 커밋합니다. 새 시크릿 창으로 열어도 같은 값이 보입니다.</p>
+      <table class="history">
+        <thead><tr><th>날짜(KST)</th><th>값</th><th>조회 시각(KST)</th><th>전일 대비</th></tr></thead>
+        <tbody id="history-tbody"></tbody>
+      </table>
+      <p class="hint" id="history-note">불러오는 중...</p>
+    </section>
+
+    <section class="card">
+      <h2>③ 합성 실패 5종 재생 데모 (공식 fixture 사용)</h2>
+      <p class="hint">아래 결과는 ①·②의 실제 지진 데이터와 완전히 분리된 <strong>합성 시험 상태</strong>입니다. 5가지 외부 실패를 재현합니다.</p>
+      <div class="btn-row">
+        <button id="btn-success">정상 흐름 재생 (D1-A→D1-B→D2)</button>
+        <button id="btn-timeout">느린 응답(Timeout)</button>
+        <button id="btn-auth">401/403 거절</button>
+        <button id="btn-rate">호출 제한(429)</button>
+        <button id="btn-offline">오프라인</button>
+        <button id="btn-schema">응답 형식 변경</button>
+        <button id="btn-retry" style="display:none;">다시 시도(복구 재생)</button>
+      </div>
+      <table class="meta">
+        <tr><th>상태</th><td><span id="demo-status" class="badge">—</span></td></tr>
+        <tr><th>보존된 일별 행 수</th><td id="demo-rows">0</td></tr>
+        <tr><th>마지막 정상값</th><td id="demo-lastgood">—</td></tr>
+        <tr><th>last_run</th><td id="demo-run" class="mono">—</td></tr>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>개인정보·비밀값 없음 · 소스: <a href="https://github.com/reum2kr" target="_blank" rel="noopener">github.com/reum2kr</a></p>
+  </footer>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

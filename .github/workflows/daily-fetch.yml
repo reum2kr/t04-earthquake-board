@@ -1,0 +1,35 @@
+name: T04 daily earthquake fetch
+
+on:
+  schedule:
+    # UTC 00:10 (KST 09:10), UTC 12:10 (KST 21:10) — 하루 중 두 번 시도해 누락을 줄임.
+    - cron: '10 0,12 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch USGS value and update records
+        run: node scripts/fetch-and-record.mjs
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "t04-bot"
+          git config user.email "t04-bot@users.noreply.github.com"
+          git add data/daily-readings.json data/receipts.json
+          if git diff --cached --quiet; then
+            echo "변경 없음 — 커밋 생략"
+          else
+            git commit -m "chore: daily USGS reading $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi
