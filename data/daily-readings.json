@@ -1,10 +1,55 @@
 {
   "schema_version": "aleph-t04-evaluation-state-v1",
-  "daily_readings": [],
-  "current_reading": null,
-  "status": null,
+  "daily_readings": [
+    {
+      "record_id": "t04-usgs-max-mag-24h-2026-09-15",
+      "signal_id": "usgs-max-mag-24h",
+      "record_date": "2026-09-15",
+      "normalized_value": 5.6,
+      "unit": "mww",
+      "first_fetched_at": "2026-09-15T09:37:37.404Z",
+      "last_fetched_at": "2026-09-15T09:37:37.404Z",
+      "reading": {
+        "signal_id": "usgs-max-mag-24h",
+        "normalized_value": 5.6,
+        "unit": "mww",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+        "source_time": "2026-09-14T10:58:03.047Z",
+        "fetched_at": "2026-09-15T09:37:37.404Z",
+        "record_timezone": "Asia/Seoul",
+        "record_date": "2026-09-15"
+      }
+    }
+  ],
+  "current_reading": {
+    "signal_id": "usgs-max-mag-24h",
+    "normalized_value": 5.6,
+    "unit": "mww",
+    "source_name": "USGS Earthquake Hazards Program",
+    "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+    "source_time": "2026-09-14T10:58:03.047Z",
+    "fetched_at": "2026-09-15T09:37:37.404Z",
+    "record_timezone": "Asia/Seoul",
+    "record_date": "2026-09-15"
+  },
+  "status": {
+    "freshness": "fresh",
+    "error_code": "none"
+  },
   "last_delta": null,
-  "last_comparison": { "state": "insufficient", "direction": null, "magnitude": null, "unit": null },
-  "last_run": null,
-  "sequence": 0
+  "last_comparison": {
+    "state": "insufficient",
+    "direction": null,
+    "magnitude": null,
+    "unit": null
+  },
+  "last_run": {
+    "fixture_id": null,
+    "virtual_now": "2026-09-15T09:37:37.404Z",
+    "outcome": "success",
+    "error_code": "none",
+    "retry_after_seconds": null
+  },
+  "sequence": 1
 }
