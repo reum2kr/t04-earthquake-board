@@ -54,7 +54,7 @@ async function fetchNormalizedReading() {
   const reading = {
     signal_id: SIGNAL_ID,
     normalized_value: top.properties.mag,
-    unit: top.properties.magType ? top.properties.magType : 'Mw',
+    unit: 'M',
     source_name: SOURCE_NAME,
     source_url: LIVE_URL,
     source_time: new Date(top.properties.time).toISOString(),
