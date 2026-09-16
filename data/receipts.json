@@ -10,5 +10,17 @@
       "record_date": "2026-09-15",
       "place": "off the coast of Michoacan, Mexico"
     }
+  },
+  {
+    "canonical_kind": "t04_day",
+    "server_created_at": "2026-09-16T00:27:39.189Z",
+    "payload": {
+      "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+      "source_observed_at": "2026-09-15T06:07:52.712Z",
+      "normalized_value": 4.8,
+      "unit": "mb",
+      "record_date": "2026-09-16",
+      "place": "289 km WSW of Tual, Indonesia"
+    }
   }
 ]
