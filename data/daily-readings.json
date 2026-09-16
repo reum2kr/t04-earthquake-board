@@ -6,13 +6,13 @@
       "signal_id": "usgs-max-mag-24h",
       "record_date": "2026-09-15",
       "normalized_value": 5.3,
-      "unit": "mww",
+      "unit": "m",
       "first_fetched_at": "2026-09-15T09:37:37.404Z",
       "last_fetched_at": "2026-09-15T12:26:38.164Z",
       "reading": {
         "signal_id": "usgs-max-mag-24h",
         "normalized_value": 5.3,
-        "unit": "mww",
+        "unit": "m",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
         "source_time": "2026-09-14T20:38:59.760Z",
@@ -32,7 +32,7 @@
       "reading": {
         "signal_id": "usgs-max-mag-24h",
         "normalized_value": 4.8,
-        "unit": "mb",
+        "unit": "m",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
         "source_time": "2026-09-15T06:07:52.712Z",
@@ -45,7 +45,7 @@
   "current_reading": {
     "signal_id": "usgs-max-mag-24h",
     "normalized_value": 4.8,
-    "unit": "mb",
+    "unit": "m",
     "source_name": "USGS Earthquake Hazards Program",
     "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
     "source_time": "2026-09-15T06:07:52.712Z",
