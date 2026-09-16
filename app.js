@@ -11,6 +11,41 @@ const fmtKST = (iso) => iso ? new Intl.DateTimeFormat('ko-KR', {
   timeZone: 'Asia/Seoul', dateStyle: 'medium', timeStyle: 'medium'
 }).format(new Date(iso)) : '—';
 
+// ---------- 표시 전용 부가정보 (저장 스키마 9개 필드와 무관 — 화면에만 표시) ----------
+function renderExtraInfo(features) {
+  // 오늘 전 세계 발생 건수
+  $('live-count').textContent = `${features.length}건 (all_day.geojson 기준)`;
+
+  // 쓰나미 경보 — 오늘 features 중 하나라도 tsunami 플래그가 1이면 발령으로 표시
+  const tsunamiCount = features.filter((f) => f.properties?.tsunami === 1).length;
+  const tsunamiEl = $('live-tsunami');
+  if (tsunamiCount > 0) {
+    tsunamiEl.textContent = `⚠️ 발령 ${tsunamiCount}건 있음`;
+    tsunamiEl.style.color = '#d97706';
+  } else {
+    tsunamiEl.textContent = '없음';
+    tsunamiEl.style.color = '';
+  }
+
+  // 최근 24시간 규모 상위 5건
+  const top5 = features
+    .filter((f) => typeof f.properties?.mag === 'number')
+    .slice()
+    .sort((a, b) => b.properties.mag - a.properties.mag)
+    .slice(0, 5);
+  const tbody = $('top5-tbody');
+  tbody.innerHTML = '';
+  top5.forEach((f) => {
+    const p = f.properties;
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td>${p.mag.toFixed(1)} ${p.magType || ''}</td>
+      <td>${p.place || '—'}</td>
+      <td>${fmtKST(new Date(p.time).toISOString())}</td>
+      <td><a href="${p.url}" target="_blank" rel="noopener">상세</a></td>`;
+    tbody.appendChild(tr);
+  });
+}
+
 // ---------- ① 지금 이 순간 실시간 조회 (C03~C10) ----------
 async function fetchLiveNow() {
   const statusEl = $('live-status');
@@ -36,11 +71,14 @@ async function fetchLiveNow() {
       throw Object.assign(new Error('필수 필드 누락'), { code: 'schema_error' });
     }
 
+    // ---- 표시 전용 부가정보 (저장 데이터 9개 필드와 무관, daily-readings.json에는 영향 없음) ----
+    renderExtraInfo(features);
+
     const fetchedAt = new Date().toISOString();
     const reading = {
       signal_id: SIGNAL_ID,
       normalized_value: top.properties.mag,
-      unit: 'M',
+      unit: top.properties.magType || 'Mw',
       source_name: SOURCE_NAME,
       source_url: LIVE_URL,
       source_time: new Date(top.properties.time).toISOString(),
