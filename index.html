@@ -26,9 +26,17 @@
           <tr><th>조회 시각</th><td id="live-fetch-time">—</td></tr>
           <tr><th>기준 시간대</th><td id="live-tz">—</td></tr>
           <tr><th>상태</th><td><span id="live-status" class="badge">—</span></td></tr>
+          <tr><th>오늘 전 세계 발생 건수</th><td id="live-count">—</td></tr>
+          <tr><th>쓰나미 경보</th><td id="live-tsunami">—</td></tr>
         </table>
       </div>
       <button id="btn-refresh-live">다시 조회</button>
+
+      <h3 class="sub-heading">최근 24시간 규모 상위 5건</h3>
+      <table class="history" id="top5-table">
+        <thead><tr><th>규모</th><th>위치</th><th>시각(KST)</th><th>상세</th></tr></thead>
+        <tbody id="top5-tbody"></tbody>
+      </table>
     </section>
 
     <section class="card">
