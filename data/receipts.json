@@ -34,5 +34,17 @@
       "record_date": "2026-09-17",
       "place": "191 km SE of Mata-Utu, Wallis and Futuna"
     }
+  },
+  {
+    "canonical_kind": "t04_day",
+    "server_created_at": "2026-09-18T00:27:32.560Z",
+    "payload": {
+      "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+      "source_observed_at": "2026-09-17T14:19:53.164Z",
+      "normalized_value": 6.5,
+      "unit": "M",
+      "record_date": "2026-09-18",
+      "place": "165 km W of Nikolski, Alaska"
+    }
   }
 ]
