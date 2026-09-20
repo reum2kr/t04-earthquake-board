@@ -58,5 +58,17 @@
       "record_date": "2026-09-19",
       "place": "Kermadec Islands region"
     }
+  },
+  {
+    "canonical_kind": "t04_day",
+    "server_created_at": "2026-09-20T00:29:06.238Z",
+    "payload": {
+      "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+      "source_observed_at": "2026-09-19T20:24:42.449Z",
+      "normalized_value": 5.2,
+      "unit": "M",
+      "record_date": "2026-09-20",
+      "place": "Reykjanes Ridge"
+    }
   }
 ]
