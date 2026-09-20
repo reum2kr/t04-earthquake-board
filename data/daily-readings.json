@@ -105,18 +105,18 @@
       "record_id": "t04-usgs-max-mag-24h-2026-09-20",
       "signal_id": "usgs-max-mag-24h",
       "record_date": "2026-09-20",
-      "normalized_value": 5.2,
+      "normalized_value": 6.4,
       "unit": "M",
       "first_fetched_at": "2026-09-20T00:29:06.238Z",
-      "last_fetched_at": "2026-09-20T00:29:06.238Z",
+      "last_fetched_at": "2026-09-20T12:24:55.368Z",
       "reading": {
         "signal_id": "usgs-max-mag-24h",
-        "normalized_value": 5.2,
+        "normalized_value": 6.4,
         "unit": "M",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
-        "source_time": "2026-09-19T20:24:42.449Z",
-        "fetched_at": "2026-09-20T00:29:06.238Z",
+        "source_time": "2026-09-20T09:17:35.624Z",
+        "fetched_at": "2026-09-20T12:24:55.368Z",
         "record_timezone": "Asia/Seoul",
         "record_date": "2026-09-20"
       }
@@ -124,12 +124,12 @@
   ],
   "current_reading": {
     "signal_id": "usgs-max-mag-24h",
-    "normalized_value": 5.2,
+    "normalized_value": 6.4,
     "unit": "M",
     "source_name": "USGS Earthquake Hazards Program",
     "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
-    "source_time": "2026-09-19T20:24:42.449Z",
-    "fetched_at": "2026-09-20T00:29:06.238Z",
+    "source_time": "2026-09-20T09:17:35.624Z",
+    "fetched_at": "2026-09-20T12:24:55.368Z",
     "record_timezone": "Asia/Seoul",
     "record_date": "2026-09-20"
   },
@@ -137,19 +137,19 @@
     "freshness": "fresh",
     "error_code": "none"
   },
-  "last_delta": 0.2999999999999998,
+  "last_delta": 0.9000000000000004,
   "last_comparison": {
     "state": "comparable",
-    "direction": "decrease",
-    "magnitude": 0.2999999999999998,
+    "direction": "increase",
+    "magnitude": 0.9000000000000004,
     "unit": "M"
   },
   "last_run": {
     "fixture_id": null,
-    "virtual_now": "2026-09-20T00:29:06.238Z",
+    "virtual_now": "2026-09-20T12:24:55.368Z",
     "outcome": "success",
     "error_code": "none",
     "retry_after_seconds": null
   },
-  "sequence": 14
+  "sequence": 15
 }
