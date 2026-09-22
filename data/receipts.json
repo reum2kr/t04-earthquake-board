@@ -82,5 +82,17 @@
       "record_date": "2026-09-21",
       "place": "south of Africa"
     }
+  },
+  {
+    "canonical_kind": "t04_day",
+    "server_created_at": "2026-09-22T00:28:12.640Z",
+    "payload": {
+      "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+      "source_observed_at": "2026-09-21T01:41:36.315Z",
+      "normalized_value": 5.5,
+      "unit": "M",
+      "record_date": "2026-09-22",
+      "place": "35 km NNE of Ruteng, Indonesia"
+    }
   }
 ]
