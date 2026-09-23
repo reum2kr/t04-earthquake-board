@@ -160,36 +160,56 @@
         "record_timezone": "Asia/Seoul",
         "record_date": "2026-09-22"
       }
+    },
+    {
+      "record_id": "t04-usgs-max-mag-24h-2026-09-23",
+      "signal_id": "usgs-max-mag-24h",
+      "record_date": "2026-09-23",
+      "normalized_value": 5.1,
+      "unit": "M",
+      "first_fetched_at": "2026-09-23T00:26:38.589Z",
+      "last_fetched_at": "2026-09-23T00:26:38.589Z",
+      "reading": {
+        "signal_id": "usgs-max-mag-24h",
+        "normalized_value": 5.1,
+        "unit": "M",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+        "source_time": "2026-09-22T10:46:22.312Z",
+        "fetched_at": "2026-09-23T00:26:38.589Z",
+        "record_timezone": "Asia/Seoul",
+        "record_date": "2026-09-23"
+      }
     }
   ],
   "current_reading": {
     "signal_id": "usgs-max-mag-24h",
-    "normalized_value": 5.3,
+    "normalized_value": 5.1,
     "unit": "M",
     "source_name": "USGS Earthquake Hazards Program",
     "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
-    "source_time": "2026-09-21T23:48:13.180Z",
-    "fetched_at": "2026-09-22T12:26:18.167Z",
+    "source_time": "2026-09-22T10:46:22.312Z",
+    "fetched_at": "2026-09-23T00:26:38.589Z",
     "record_timezone": "Asia/Seoul",
-    "record_date": "2026-09-22"
+    "record_date": "2026-09-23"
   },
   "status": {
     "freshness": "fresh",
     "error_code": "none"
   },
-  "last_delta": 0.40000000000000036,
+  "last_delta": 0.20000000000000018,
   "last_comparison": {
     "state": "comparable",
     "direction": "decrease",
-    "magnitude": 0.40000000000000036,
+    "magnitude": 0.20000000000000018,
     "unit": "M"
   },
   "last_run": {
     "fixture_id": null,
-    "virtual_now": "2026-09-22T12:26:18.167Z",
+    "virtual_now": "2026-09-23T00:26:38.589Z",
     "outcome": "success",
     "error_code": "none",
     "retry_after_seconds": null
   },
-  "sequence": 19
+  "sequence": 20
 }
