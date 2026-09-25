@@ -121,14 +121,14 @@
   },
   {
     "canonical_kind": "t04_day",
-    "server_created_at": "2026-09-25T00:29:47.091Z",
+    "server_created_at": "2026-09-25T12:26:52.451Z",
     "payload": {
       "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
-      "source_observed_at": "2026-09-24T23:30:28.053Z",
+      "source_observed_at": "2026-09-25T11:12:15.838Z",
       "normalized_value": 5.3,
       "unit": "M",
       "record_date": "2026-09-25",
-      "place": "72 km NW of Finschhafen, Papua New Guinea"
+      "place": "Vanuatu region"
     }
   }
 ]
