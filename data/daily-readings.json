@@ -265,18 +265,18 @@
       "record_id": "t04-usgs-max-mag-24h-2026-09-28",
       "signal_id": "usgs-max-mag-24h",
       "record_date": "2026-09-28",
-      "normalized_value": 5.1,
+      "normalized_value": 5.4,
       "unit": "M",
       "first_fetched_at": "2026-09-28T00:30:58.110Z",
-      "last_fetched_at": "2026-09-28T00:30:58.110Z",
+      "last_fetched_at": "2026-09-28T12:29:15.081Z",
       "reading": {
         "signal_id": "usgs-max-mag-24h",
-        "normalized_value": 5.1,
+        "normalized_value": 5.4,
         "unit": "M",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
-        "source_time": "2026-09-27T02:22:10.562Z",
-        "fetched_at": "2026-09-28T00:30:58.110Z",
+        "source_time": "2026-09-28T04:41:21.639Z",
+        "fetched_at": "2026-09-28T12:29:15.081Z",
         "record_timezone": "Asia/Seoul",
         "record_date": "2026-09-28"
       }
@@ -284,12 +284,12 @@
   ],
   "current_reading": {
     "signal_id": "usgs-max-mag-24h",
-    "normalized_value": 5.1,
+    "normalized_value": 5.4,
     "unit": "M",
     "source_name": "USGS Earthquake Hazards Program",
     "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
-    "source_time": "2026-09-27T02:22:10.562Z",
-    "fetched_at": "2026-09-28T00:30:58.110Z",
+    "source_time": "2026-09-28T04:41:21.639Z",
+    "fetched_at": "2026-09-28T12:29:15.081Z",
     "record_timezone": "Asia/Seoul",
     "record_date": "2026-09-28"
   },
@@ -297,19 +297,19 @@
     "freshness": "fresh",
     "error_code": "none"
   },
-  "last_delta": 0.5,
+  "last_delta": 0.1999999999999993,
   "last_comparison": {
     "state": "comparable",
     "direction": "decrease",
-    "magnitude": 0.5,
+    "magnitude": 0.1999999999999993,
     "unit": "M"
   },
   "last_run": {
     "fixture_id": null,
-    "virtual_now": "2026-09-28T00:30:58.110Z",
+    "virtual_now": "2026-09-28T12:29:15.081Z",
     "outcome": "success",
     "error_code": "none",
     "retry_after_seconds": null
   },
-  "sequence": 30
+  "sequence": 31
 }
