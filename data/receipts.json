@@ -166,5 +166,17 @@
       "record_date": "2026-09-28",
       "place": "231 km WSW of Port McNeill, Canada"
     }
+  },
+  {
+    "canonical_kind": "t04_day",
+    "server_created_at": "2026-09-29T00:29:20.946Z",
+    "payload": {
+      "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+      "source_observed_at": "2026-09-28T13:22:39.769Z",
+      "normalized_value": 5.4,
+      "unit": "M",
+      "record_date": "2026-09-29",
+      "place": "north of Svalbard"
+    }
   }
 ]
