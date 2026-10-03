@@ -214,5 +214,17 @@
       "record_date": "2026-10-02",
       "place": "159 km SE of Gizo, Solomon Islands"
     }
+  },
+  {
+    "canonical_kind": "t04_day",
+    "server_created_at": "2026-10-03T05:10:33.533Z",
+    "payload": {
+      "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+      "source_observed_at": "2026-10-02T16:34:41.010Z",
+      "normalized_value": 5.8,
+      "unit": "M",
+      "record_date": "2026-10-03",
+      "place": "165 km SSE of Vilyuchinsk, Russia"
+    }
   }
 ]
