@@ -229,14 +229,14 @@
   },
   {
     "canonical_kind": "t04_day",
-    "server_created_at": "2026-10-03T16:11:13.571Z",
+    "server_created_at": "2026-10-04T05:43:55.008Z",
     "payload": {
       "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
-      "source_observed_at": "2026-10-02T16:34:41.010Z",
-      "normalized_value": 5.8,
+      "source_observed_at": "2026-10-03T22:55:55.358Z",
+      "normalized_value": 5.9,
       "unit": "M",
       "record_date": "2026-10-04",
-      "place": "165 km SSE of Vilyuchinsk, Russia"
+      "place": "39 km WSW of Tambolaka, Indonesia"
     }
   }
 ]
