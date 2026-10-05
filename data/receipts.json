@@ -241,14 +241,14 @@
   },
   {
     "canonical_kind": "t04_day",
-    "server_created_at": "2026-10-04T16:49:44.450Z",
+    "server_created_at": "2026-10-05T05:28:26.086Z",
     "payload": {
       "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
-      "source_observed_at": "2026-10-03T22:55:55.358Z",
-      "normalized_value": 5.9,
+      "source_observed_at": "2026-10-04T11:12:48.270Z",
+      "normalized_value": 5.5,
       "unit": "M",
       "record_date": "2026-10-05",
-      "place": "39 km WSW of Tambolaka, Indonesia"
+      "place": "Volcano Islands, Japan region"
     }
   }
 ]
