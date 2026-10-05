@@ -250,5 +250,17 @@
       "record_date": "2026-10-05",
       "place": "Volcano Islands, Japan region"
     }
+  },
+  {
+    "canonical_kind": "t04_day",
+    "server_created_at": "2026-10-05T20:37:24.768Z",
+    "payload": {
+      "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+      "source_observed_at": "2026-10-05T01:18:50.392Z",
+      "normalized_value": 5.3,
+      "unit": "M",
+      "record_date": "2026-10-06",
+      "place": "central Mid-Atlantic Ridge"
+    }
   }
 ]
