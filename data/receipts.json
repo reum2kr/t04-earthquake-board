@@ -298,5 +298,17 @@
       "record_date": "2026-10-09",
       "place": "102 km NE of Norsup, Vanuatu"
     }
+  },
+  {
+    "canonical_kind": "t04_day",
+    "server_created_at": "2026-10-09T18:18:58.011Z",
+    "payload": {
+      "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+      "source_observed_at": "2026-10-09T17:56:05.655Z",
+      "normalized_value": 7.6,
+      "unit": "M",
+      "record_date": "2026-10-10",
+      "place": "10 km WSW of Pitaloza Arriba, Panama"
+    }
   }
 ]
