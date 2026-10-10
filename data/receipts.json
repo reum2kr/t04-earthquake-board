@@ -301,14 +301,14 @@
   },
   {
     "canonical_kind": "t04_day",
-    "server_created_at": "2026-10-09T18:18:58.011Z",
+    "server_created_at": "2026-10-10T05:43:15.884Z",
     "payload": {
       "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
-      "source_observed_at": "2026-10-09T17:56:05.655Z",
-      "normalized_value": 7.6,
+      "source_observed_at": "2026-10-09T17:56:06.036Z",
+      "normalized_value": 7.7,
       "unit": "M",
       "record_date": "2026-10-10",
-      "place": "10 km WSW of Pitaloza Arriba, Panama"
+      "place": "12 km WSW of Pitaloza Arriba, Panama"
     }
   }
 ]
