@@ -313,14 +313,14 @@
   },
   {
     "canonical_kind": "t04_day",
-    "server_created_at": "2026-10-10T17:18:41.088Z",
+    "server_created_at": "2026-10-11T05:38:14.382Z",
     "payload": {
       "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
-      "source_observed_at": "2026-10-09T17:56:06.036Z",
-      "normalized_value": 7.7,
+      "source_observed_at": "2026-10-10T21:34:02.337Z",
+      "normalized_value": 5.3,
       "unit": "M",
       "record_date": "2026-10-11",
-      "place": "12 km WSW of Pitaloza Arriba, Panama"
+      "place": "southeast of Easter Island"
     }
   }
 ]
