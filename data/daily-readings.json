@@ -580,36 +580,56 @@
         "record_timezone": "Asia/Seoul",
         "record_date": "2026-10-13"
       }
+    },
+    {
+      "record_id": "t04-usgs-max-mag-24h-2026-10-14",
+      "signal_id": "usgs-max-mag-24h",
+      "record_date": "2026-10-14",
+      "normalized_value": 6.8,
+      "unit": "M",
+      "first_fetched_at": "2026-10-13T19:12:46.998Z",
+      "last_fetched_at": "2026-10-13T19:12:46.998Z",
+      "reading": {
+        "signal_id": "usgs-max-mag-24h",
+        "normalized_value": 6.8,
+        "unit": "M",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+        "source_time": "2026-10-13T12:23:07.248Z",
+        "fetched_at": "2026-10-13T19:12:46.998Z",
+        "record_timezone": "Asia/Seoul",
+        "record_date": "2026-10-14"
+      }
     }
   ],
   "current_reading": {
     "signal_id": "usgs-max-mag-24h",
-    "normalized_value": 6.7,
+    "normalized_value": 6.8,
     "unit": "M",
     "source_name": "USGS Earthquake Hazards Program",
     "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
-    "source_time": "2026-10-13T05:44:46.919Z",
-    "fetched_at": "2026-10-13T06:42:25.686Z",
+    "source_time": "2026-10-13T12:23:07.248Z",
+    "fetched_at": "2026-10-13T19:12:46.998Z",
     "record_timezone": "Asia/Seoul",
-    "record_date": "2026-10-13"
+    "record_date": "2026-10-14"
   },
   "status": {
     "freshness": "fresh",
     "error_code": "none"
   },
-  "last_delta": 0.5,
+  "last_delta": 0.09999999999999964,
   "last_comparison": {
     "state": "comparable",
     "direction": "increase",
-    "magnitude": 0.5,
+    "magnitude": 0.09999999999999964,
     "unit": "M"
   },
   "last_run": {
     "fixture_id": null,
-    "virtual_now": "2026-10-13T06:42:25.686Z",
+    "virtual_now": "2026-10-13T19:12:46.998Z",
     "outcome": "success",
     "error_code": "none",
     "retry_after_seconds": null
   },
-  "sequence": 60
+  "sequence": 61
 }
