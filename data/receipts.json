@@ -337,14 +337,14 @@
   },
   {
     "canonical_kind": "t04_day",
-    "server_created_at": "2026-10-12T21:14:02.958Z",
+    "server_created_at": "2026-10-13T06:42:25.686Z",
     "payload": {
       "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
-      "source_observed_at": "2026-10-12T04:38:12.859Z",
-      "normalized_value": 5.5,
+      "source_observed_at": "2026-10-13T05:44:46.919Z",
+      "normalized_value": 6.7,
       "unit": "M",
       "record_date": "2026-10-13",
-      "place": "122 km W of Neiafu, Tonga"
+      "place": "central Mid-Atlantic Ridge"
     }
   }
 ]
