@@ -358,5 +358,17 @@
       "record_date": "2026-10-14",
       "place": "central Mid-Atlantic Ridge"
     }
+  },
+  {
+    "canonical_kind": "t04_day",
+    "server_created_at": "2026-10-14T17:04:07.636Z",
+    "payload": {
+      "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+      "source_observed_at": "2026-10-13T18:45:03.231Z",
+      "normalized_value": 6,
+      "unit": "M",
+      "record_date": "2026-10-15",
+      "place": "126 km S of Kokopo, Papua New Guinea"
+    }
   }
 ]
