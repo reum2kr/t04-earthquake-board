@@ -605,18 +605,18 @@
       "record_id": "t04-usgs-max-mag-24h-2026-10-15",
       "signal_id": "usgs-max-mag-24h",
       "record_date": "2026-10-15",
-      "normalized_value": 6,
+      "normalized_value": 5.9,
       "unit": "M",
       "first_fetched_at": "2026-10-14T17:04:07.636Z",
-      "last_fetched_at": "2026-10-14T17:04:07.636Z",
+      "last_fetched_at": "2026-10-15T04:28:30.192Z",
       "reading": {
         "signal_id": "usgs-max-mag-24h",
-        "normalized_value": 6,
+        "normalized_value": 5.9,
         "unit": "M",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
-        "source_time": "2026-10-13T18:45:03.231Z",
-        "fetched_at": "2026-10-14T17:04:07.636Z",
+        "source_time": "2026-10-14T10:49:47.588Z",
+        "fetched_at": "2026-10-15T04:28:30.192Z",
         "record_timezone": "Asia/Seoul",
         "record_date": "2026-10-15"
       }
@@ -624,12 +624,12 @@
   ],
   "current_reading": {
     "signal_id": "usgs-max-mag-24h",
-    "normalized_value": 6,
+    "normalized_value": 5.9,
     "unit": "M",
     "source_name": "USGS Earthquake Hazards Program",
     "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
-    "source_time": "2026-10-13T18:45:03.231Z",
-    "fetched_at": "2026-10-14T17:04:07.636Z",
+    "source_time": "2026-10-14T10:49:47.588Z",
+    "fetched_at": "2026-10-15T04:28:30.192Z",
     "record_timezone": "Asia/Seoul",
     "record_date": "2026-10-15"
   },
@@ -637,19 +637,19 @@
     "freshness": "fresh",
     "error_code": "none"
   },
-  "last_delta": 0.7999999999999998,
+  "last_delta": 0.8999999999999995,
   "last_comparison": {
     "state": "comparable",
     "direction": "decrease",
-    "magnitude": 0.7999999999999998,
+    "magnitude": 0.8999999999999995,
     "unit": "M"
   },
   "last_run": {
     "fixture_id": null,
-    "virtual_now": "2026-10-14T17:04:07.636Z",
+    "virtual_now": "2026-10-15T04:28:30.192Z",
     "outcome": "success",
     "error_code": "none",
     "retry_after_seconds": null
   },
-  "sequence": 63
+  "sequence": 64
 }
