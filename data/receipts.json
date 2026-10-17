@@ -394,5 +394,17 @@
       "record_date": "2026-10-17",
       "place": "off the coast of Ecuador"
     }
+  },
+  {
+    "canonical_kind": "t04_day",
+    "server_created_at": "2026-10-17T15:27:27.129Z",
+    "payload": {
+      "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+      "source_observed_at": "2026-10-17T05:06:57.657Z",
+      "normalized_value": 5.7,
+      "unit": "M",
+      "record_date": "2026-10-18",
+      "place": "48 km WNW of Khuzdar, Pakistan"
+    }
   }
 ]
