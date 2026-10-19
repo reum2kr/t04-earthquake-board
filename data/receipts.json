@@ -418,5 +418,17 @@
       "record_date": "2026-10-19",
       "place": "71 km ESE of ‘Ohonua, Tonga"
     }
+  },
+  {
+    "canonical_kind": "t04_day",
+    "server_created_at": "2026-10-19T18:41:19.650Z",
+    "payload": {
+      "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+      "source_observed_at": "2026-10-19T07:49:04.900Z",
+      "normalized_value": 6,
+      "unit": "M",
+      "record_date": "2026-10-20",
+      "place": "186 km NW of Port-Olry, Vanuatu"
+    }
   }
 ]
