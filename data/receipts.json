@@ -421,14 +421,14 @@
   },
   {
     "canonical_kind": "t04_day",
-    "server_created_at": "2026-10-19T18:41:19.650Z",
+    "server_created_at": "2026-10-20T04:40:51.711Z",
     "payload": {
       "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
-      "source_observed_at": "2026-10-19T07:49:04.900Z",
-      "normalized_value": 6,
+      "source_observed_at": "2026-10-20T04:20:38.444Z",
+      "normalized_value": 6.3,
       "unit": "M",
       "record_date": "2026-10-20",
-      "place": "186 km NW of Port-Olry, Vanuatu"
+      "place": "204 km WNW of Port-Olry, Vanuatu"
     }
   }
 ]
