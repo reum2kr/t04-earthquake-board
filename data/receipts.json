@@ -442,5 +442,17 @@
       "record_date": "2026-10-21",
       "place": "192 km S of Burica, Panama"
     }
+  },
+  {
+    "canonical_kind": "t04_day",
+    "server_created_at": "2026-10-21T17:06:09.980Z",
+    "payload": {
+      "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+      "source_observed_at": "2026-10-21T08:37:41.317Z",
+      "normalized_value": 5.2,
+      "unit": "M",
+      "record_date": "2026-10-22",
+      "place": "68 km NE of Cabatuan, Philippines"
+    }
   }
 ]
