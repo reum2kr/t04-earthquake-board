@@ -481,14 +481,14 @@
   },
   {
     "canonical_kind": "t04_day",
-    "server_created_at": "2026-10-24T15:51:05.477Z",
+    "server_created_at": "2026-10-25T04:32:01.819Z",
     "payload": {
       "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
-      "source_observed_at": "2026-10-24T02:31:28.641Z",
-      "normalized_value": 6.9,
+      "source_observed_at": "2026-10-25T02:09:23.818Z",
+      "normalized_value": 6.5,
       "unit": "M",
       "record_date": "2026-10-25",
-      "place": "197 km WNW of Port-Olry, Vanuatu"
+      "place": "Bonin Islands, Japan region"
     }
   }
 ]
