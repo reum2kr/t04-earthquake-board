@@ -574,5 +574,17 @@
       "record_date": "2026-11-01",
       "place": "58 km SSE of Shima, Japan"
     }
+  },
+  {
+    "canonical_kind": "t04_day",
+    "server_created_at": "2026-11-01T17:54:20.851Z",
+    "payload": {
+      "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+      "source_observed_at": "2026-11-01T11:47:03.778Z",
+      "normalized_value": 6,
+      "unit": "M",
+      "record_date": "2026-11-02",
+      "place": "165 km NW of Port-Olry, Vanuatu"
+    }
   }
 ]
