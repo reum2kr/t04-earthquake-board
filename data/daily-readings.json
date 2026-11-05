@@ -1025,18 +1025,18 @@
       "record_id": "t04-usgs-max-mag-24h-2026-11-05",
       "signal_id": "usgs-max-mag-24h",
       "record_date": "2026-11-05",
-      "normalized_value": 5.2,
+      "normalized_value": 5,
       "unit": "M",
       "first_fetched_at": "2026-11-04T19:41:35.078Z",
-      "last_fetched_at": "2026-11-04T19:41:35.078Z",
+      "last_fetched_at": "2026-11-05T06:34:30.743Z",
       "reading": {
         "signal_id": "usgs-max-mag-24h",
-        "normalized_value": 5.2,
+        "normalized_value": 5,
         "unit": "M",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
-        "source_time": "2026-11-03T21:34:08.654Z",
-        "fetched_at": "2026-11-04T19:41:35.078Z",
+        "source_time": "2026-11-04T07:40:12.288Z",
+        "fetched_at": "2026-11-05T06:34:30.743Z",
         "record_timezone": "Asia/Seoul",
         "record_date": "2026-11-05"
       }
@@ -1044,12 +1044,12 @@
   ],
   "current_reading": {
     "signal_id": "usgs-max-mag-24h",
-    "normalized_value": 5.2,
+    "normalized_value": 5,
     "unit": "M",
     "source_name": "USGS Earthquake Hazards Program",
     "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
-    "source_time": "2026-11-03T21:34:08.654Z",
-    "fetched_at": "2026-11-04T19:41:35.078Z",
+    "source_time": "2026-11-04T07:40:12.288Z",
+    "fetched_at": "2026-11-05T06:34:30.743Z",
     "record_timezone": "Asia/Seoul",
     "record_date": "2026-11-05"
   },
@@ -1057,19 +1057,19 @@
     "freshness": "fresh",
     "error_code": "none"
   },
-  "last_delta": 0.20000000000000018,
+  "last_delta": 0.40000000000000036,
   "last_comparison": {
     "state": "comparable",
     "direction": "decrease",
-    "magnitude": 0.20000000000000018,
+    "magnitude": 0.40000000000000036,
     "unit": "M"
   },
   "last_run": {
     "fixture_id": null,
-    "virtual_now": "2026-11-04T19:41:35.078Z",
+    "virtual_now": "2026-11-05T06:34:30.743Z",
     "outcome": "success",
     "error_code": "none",
     "retry_after_seconds": null
   },
-  "sequence": 105
+  "sequence": 106
 }
