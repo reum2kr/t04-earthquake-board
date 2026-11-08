@@ -649,14 +649,14 @@
   },
   {
     "canonical_kind": "t04_day",
-    "server_created_at": "2026-11-07T17:43:04.966Z",
+    "server_created_at": "2026-11-08T05:53:04.947Z",
     "payload": {
       "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
-      "source_observed_at": "2026-11-07T16:04:35.125Z",
-      "normalized_value": 5.5,
+      "source_observed_at": "2026-11-07T23:17:06.073Z",
+      "normalized_value": 5.9,
       "unit": "M",
       "record_date": "2026-11-08",
-      "place": "10 km NW of Hamakita, Japan"
+      "place": "central Mid-Atlantic Ridge"
     }
   }
 ]
