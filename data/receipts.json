@@ -682,5 +682,17 @@
       "record_date": "2026-11-10",
       "place": "Pulau Pulau Tanimbar, Indonesia"
     }
+  },
+  {
+    "canonical_kind": "t04_day",
+    "server_created_at": "2026-11-10T19:39:34.173Z",
+    "payload": {
+      "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+      "source_observed_at": "2026-11-10T14:54:17.647Z",
+      "normalized_value": 5.6,
+      "unit": "M",
+      "record_date": "2026-11-11",
+      "place": "43 km S of Puerto San José, Guatemala"
+    }
   }
 ]
