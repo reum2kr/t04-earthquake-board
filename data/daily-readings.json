@@ -1268,15 +1268,15 @@
       "normalized_value": 6.6,
       "unit": "M",
       "first_fetched_at": "2026-11-16T21:56:11.312Z",
-      "last_fetched_at": "2026-11-16T21:56:11.312Z",
+      "last_fetched_at": "2026-11-17T07:46:47.502Z",
       "reading": {
         "signal_id": "usgs-max-mag-24h",
         "normalized_value": 6.6,
         "unit": "M",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
-        "source_time": "2026-11-16T21:11:17.168Z",
-        "fetched_at": "2026-11-16T21:56:11.312Z",
+        "source_time": "2026-11-16T21:11:20.515Z",
+        "fetched_at": "2026-11-17T07:46:47.502Z",
         "record_timezone": "Asia/Seoul",
         "record_date": "2026-11-17"
       }
@@ -1288,8 +1288,8 @@
     "unit": "M",
     "source_name": "USGS Earthquake Hazards Program",
     "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
-    "source_time": "2026-11-16T21:11:17.168Z",
-    "fetched_at": "2026-11-16T21:56:11.312Z",
+    "source_time": "2026-11-16T21:11:20.515Z",
+    "fetched_at": "2026-11-17T07:46:47.502Z",
     "record_timezone": "Asia/Seoul",
     "record_date": "2026-11-17"
   },
@@ -1306,10 +1306,10 @@
   },
   "last_run": {
     "fixture_id": null,
-    "virtual_now": "2026-11-16T21:56:11.312Z",
+    "virtual_now": "2026-11-17T07:46:47.502Z",
     "outcome": "success",
     "error_code": "none",
     "retry_after_seconds": null
   },
-  "sequence": 129
+  "sequence": 130
 }
