@@ -778,5 +778,17 @@
       "record_date": "2026-11-18",
       "place": "85 km WNW of San Juan, Peru"
     }
+  },
+  {
+    "canonical_kind": "t04_day",
+    "server_created_at": "2026-11-18T20:24:44.161Z",
+    "payload": {
+      "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+      "source_observed_at": "2026-11-18T19:14:23.713Z",
+      "normalized_value": 6.1,
+      "unit": "M",
+      "record_date": "2026-11-19",
+      "place": "Pacific-Antarctic Ridge"
+    }
   }
 ]
