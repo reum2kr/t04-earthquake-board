@@ -814,5 +814,17 @@
       "record_date": "2026-11-21",
       "place": "9 km NE of Carhuamayo, Peru"
     }
+  },
+  {
+    "canonical_kind": "t04_day",
+    "server_created_at": "2026-11-21T19:06:59.238Z",
+    "payload": {
+      "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+      "source_observed_at": "2026-11-21T09:42:09.120Z",
+      "normalized_value": 6.8,
+      "unit": "M",
+      "record_date": "2026-11-22",
+      "place": "105 km NE of Lospalos, Timor Leste"
+    }
   }
 ]
