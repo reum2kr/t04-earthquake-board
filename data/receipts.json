@@ -874,5 +874,17 @@
       "record_date": "2026-11-26",
       "place": "83 km ESE of Hengchun, Taiwan"
     }
+  },
+  {
+    "canonical_kind": "t04_day",
+    "server_created_at": "2026-11-26T21:25:16.095Z",
+    "payload": {
+      "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+      "source_observed_at": "2026-11-26T15:26:44.294Z",
+      "normalized_value": 5.7,
+      "unit": "M",
+      "record_date": "2026-11-27",
+      "place": "Revilla Gigedo Islands region"
+    }
   }
 ]
