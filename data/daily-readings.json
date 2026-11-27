@@ -1480,36 +1480,56 @@
         "record_timezone": "Asia/Seoul",
         "record_date": "2026-11-27"
       }
+    },
+    {
+      "record_id": "t04-usgs-max-mag-24h-2026-11-28",
+      "signal_id": "usgs-max-mag-24h",
+      "record_date": "2026-11-28",
+      "normalized_value": 5.1,
+      "unit": "M",
+      "first_fetched_at": "2026-11-27T21:07:18.110Z",
+      "last_fetched_at": "2026-11-27T21:07:18.110Z",
+      "reading": {
+        "signal_id": "usgs-max-mag-24h",
+        "normalized_value": 5.1,
+        "unit": "M",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+        "source_time": "2026-11-27T00:07:00.857Z",
+        "fetched_at": "2026-11-27T21:07:18.110Z",
+        "record_timezone": "Asia/Seoul",
+        "record_date": "2026-11-28"
+      }
     }
   ],
   "current_reading": {
     "signal_id": "usgs-max-mag-24h",
-    "normalized_value": 5.7,
+    "normalized_value": 5.1,
     "unit": "M",
     "source_name": "USGS Earthquake Hazards Program",
     "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
-    "source_time": "2026-11-26T15:26:44.294Z",
-    "fetched_at": "2026-11-27T08:14:40.817Z",
+    "source_time": "2026-11-27T00:07:00.857Z",
+    "fetched_at": "2026-11-27T21:07:18.110Z",
     "record_timezone": "Asia/Seoul",
-    "record_date": "2026-11-27"
+    "record_date": "2026-11-28"
   },
   "status": {
     "freshness": "fresh",
     "error_code": "none"
   },
-  "last_delta": 0.40000000000000036,
+  "last_delta": 0.6000000000000005,
   "last_comparison": {
     "state": "comparable",
-    "direction": "increase",
-    "magnitude": 0.40000000000000036,
+    "direction": "decrease",
+    "magnitude": 0.6000000000000005,
     "unit": "M"
   },
   "last_run": {
     "fixture_id": null,
-    "virtual_now": "2026-11-27T08:14:40.817Z",
+    "virtual_now": "2026-11-27T21:07:18.110Z",
     "outcome": "success",
     "error_code": "none",
     "retry_after_seconds": null
   },
-  "sequence": 150
+  "sequence": 151
 }
