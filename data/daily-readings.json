@@ -1485,18 +1485,18 @@
       "record_id": "t04-usgs-max-mag-24h-2026-11-28",
       "signal_id": "usgs-max-mag-24h",
       "record_date": "2026-11-28",
-      "normalized_value": 5.1,
+      "normalized_value": 5.2,
       "unit": "M",
       "first_fetched_at": "2026-11-27T21:07:18.110Z",
-      "last_fetched_at": "2026-11-27T21:07:18.110Z",
+      "last_fetched_at": "2026-11-28T07:37:27.463Z",
       "reading": {
         "signal_id": "usgs-max-mag-24h",
-        "normalized_value": 5.1,
+        "normalized_value": 5.2,
         "unit": "M",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
-        "source_time": "2026-11-27T00:07:00.857Z",
-        "fetched_at": "2026-11-27T21:07:18.110Z",
+        "source_time": "2026-11-28T02:25:05.520Z",
+        "fetched_at": "2026-11-28T07:37:27.463Z",
         "record_timezone": "Asia/Seoul",
         "record_date": "2026-11-28"
       }
@@ -1504,12 +1504,12 @@
   ],
   "current_reading": {
     "signal_id": "usgs-max-mag-24h",
-    "normalized_value": 5.1,
+    "normalized_value": 5.2,
     "unit": "M",
     "source_name": "USGS Earthquake Hazards Program",
     "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
-    "source_time": "2026-11-27T00:07:00.857Z",
-    "fetched_at": "2026-11-27T21:07:18.110Z",
+    "source_time": "2026-11-28T02:25:05.520Z",
+    "fetched_at": "2026-11-28T07:37:27.463Z",
     "record_timezone": "Asia/Seoul",
     "record_date": "2026-11-28"
   },
@@ -1517,19 +1517,19 @@
     "freshness": "fresh",
     "error_code": "none"
   },
-  "last_delta": 0.6000000000000005,
+  "last_delta": 0.5,
   "last_comparison": {
     "state": "comparable",
     "direction": "decrease",
-    "magnitude": 0.6000000000000005,
+    "magnitude": 0.5,
     "unit": "M"
   },
   "last_run": {
     "fixture_id": null,
-    "virtual_now": "2026-11-27T21:07:18.110Z",
+    "virtual_now": "2026-11-28T07:37:27.463Z",
     "outcome": "success",
     "error_code": "none",
     "retry_after_seconds": null
   },
-  "sequence": 151
+  "sequence": 152
 }
